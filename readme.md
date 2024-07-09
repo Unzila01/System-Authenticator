@@ -43,6 +43,6 @@ To set up the project locally:
 
 ## Usage
 
-- Access the application at `http://localhost:3000`.
+- Access the application at `http://localhost:5000`.
 - Sign up with your email and password.
 - Use Google or GitHub to log in via OAuth.
