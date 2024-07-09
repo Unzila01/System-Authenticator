@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.signup-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 10px;  /* Increased padding to match button size */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;  /* Ensure consistent font size */
+}
+
+p {
+    margin: 10px 0;
+    font-size: 14px; /* Style the new line */
+    color: #666; /* Optional: set the text color */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;  /* Ensure consistent font size */
+}
+
+
+.oauth-button {
+    background-color: #4285F4; /* Google color */
+    color: white;
+}
+
+.oauth-button.github {
+    background-color: #333; /* GitHub color */
+}
+
+.oauth-button:hover {
+    opacity: 0.8;
+}
+
+button[type="submit"] {
+    background-color: #28a745; /* Sign up button color */
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
